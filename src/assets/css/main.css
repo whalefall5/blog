@@ -1,0 +1,29 @@
+@charset "utf-8";
+@import url(http://fonts.useso.com/css?family=Play);
+/* Live Preview style */
+/* you donot need this style for your background */
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+}
+
+body {
+    width: 100%;
+   
+    font-family:  'Play', sans-serif;
+}
+/* -------------------- Mobile Style -------------------- */
+@media only screen and (max-width:480px) {
+body {
+    width: 90%;
+}
+}
+
+/* -------------------- Tablet Style -------------------- */
+@media only screen and (min-width:481px) and (max-width:767px) {
+body {
+    width: 80%;
+}
+}
