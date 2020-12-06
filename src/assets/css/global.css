@@ -1,0 +1,24 @@
+.box{
+
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+    background: black;
+ 
+
+  }
+  .box a{
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+  }
+  .box span{
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+  }
+  .box  img{
+    height: 100px;
+    width: 100px;
+    
+  }
+  
