@@ -5,14 +5,17 @@
 <div id="e_background"  >
 	<div id="e_smallstars"></div>
 	<div id="e_moon"></div>
+
 </div>
-  </div>
+
+</div>
+  
 </template>
 
 <script>
-import './../assets/css/main.css'
+// import './../assets/css/main.css'
 import './../assets/css/style.css'
-
+import box from './../components/box.vue'
 export default {
   name: 'Bg',
   data () {
@@ -20,7 +23,9 @@ export default {
         background:false
     };
   },
-  components: {},
+  components: {
+   box
+  },
   mounted () {
      
   },
@@ -36,18 +41,23 @@ export default {
 
 <style  scoped>
 
+
 .bg{
   background-image: url('./../assets/img/index.png');
-   height: 1000px;
+   height:1955px;
+   position: absolute;
+   z-index: 1000 !important;
+   border: 1px solid red;
 }
 .lampon  {
   width: 80px;
   height: 160px;
   background: url('./../assets/img/lampoff.4ca4d48a.png');
   background-size: 100% 100%;
-  position: ;position: absolute;
+position: absolute;
   top: 60px;
   left: 20px;
+  z-index: 10000;
   
 }
 .lampon:hover{
@@ -55,9 +65,12 @@ export default {
    background-size: 100% 100%;
    width: 80px;
   height: 200px;
+  z-index: 10000;
 }
 .e_background{
-    position: relative;
+
     z-index: 10;
+    position: relative;
+    
 }
 </style>
